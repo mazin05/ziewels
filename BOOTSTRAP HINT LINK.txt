@@ -1,0 +1,12 @@
+BOOTSTRAP HINT LINK
+
+grid:
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+
+components:
+https://getbootstrap.com/docs/4.0/components/alerts/
+
+
+sidebar:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive

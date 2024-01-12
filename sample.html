@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZIEWELs</title>
+    <link rel="icon" href="./logo.png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <!-- <link rel="stylesheet" href="project.css"> -->
+    <link rel="stylesheet" href="sample.css">
+    <style>
+       html{
+        scroll-behavior: smooth;
+        }
+    </style>
+  </head>
+
+  <body>
+
+<!-- <div class="topcalc">
+    <div class="calcpurity" id="puritypart"> 
+        Calculate by Purity
+    </div>
+    <div class="calcby">
+        Calculate by Purity to help you find the best old gold exchange value in the market
+    </div>
+
+    <div class="calctotal" >
+
+        <div class="calcinp">
+        <h5>CHECK VALUE</h5>
+        <!-- <input type="number" name="" id="pure" placeholder="Enter Purity"><br> -->
+         <!-- <select id="pure"> 
+            <option value="14">14 Carat</option>
+            <option value="18">18 Carat</option>
+            <option value="22">22 Carat</option>
+            <option value="24">24 Carat</option>
+        </select>
+        <input type="number" name="" id="gram" placeholder="Enter Gram" required><br>
+        <button type="button" class="calcbtn" id="myBtn" onclick="myBtn()">CALCULATE EXCHANGE VALUE</button>
+        </div>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+        
+            <center><p class="modalp">Ziewels</p></center>
+            <table class="table">
+	        	<tr>
+	        		<th>Description</th>
+	        		<th>Value</th>
+	        	</tr>
+	            <tr>
+	            	<td>Purity</td>
+                    <td><span id="modalpure"></span></td>
+	            </tr>
+                <tr>
+	            	<td>Gram</td>
+                    <td><span id="modalgram"></span></td>
+	            </tr>
+                <tr>
+	            	<td>Total</span></td>
+                    <td>₹<span id="total"></span></td>
+	            </tr>
+	        </table>
+          </div>
+        </div>
+
+        <div class="calcrate">
+            <div class="calstd">Standard Gold Rates</div>
+            <div class="carat">
+                <div>14 Caratage Gold(1G) - <span>₹3689</span></div>
+                <hr class="calchr">
+                <div>18 Caratage Gold(1G) - <span>₹4747</span></div>
+                <hr class="calchr">
+                <div>22 Caratage Gold(1G) - <span>₹5803</span></div>
+                <hr class="calchr">
+                <div>24 Caratage Gold(1G) - <span>₹6328</span></div>
+            </div>
+        </div>
+
+    </div>
+</div> -->
+
+<!-- </section> --> 
+
+
+<!-- ******************************************************************************************************************** -->
+<!-- ******************************************************************************************************************** -->
+<section>
+    <div class="calcpurity" id="puritypart"> 
+        Calculate by Purity
+    </div>
+    <div class="calcby">
+        Calculate by Purity to help you find the best old gold exchange value in the market
+    </div>
+    <div class="col-sm-6 topcal">
+    <div class="calcinp">
+        <h5>CHECK VALUE</h5>
+        <!-- <input type="number" name="" id="pure" placeholder="Enter Purity"><br> -->
+         <select id="pure"> 
+            <option value="14">14 Carat</option>
+            <option value="18">18 Carat</option>
+            <option value="22">22 Carat</option>
+            <option value="24">24 Carat</option>
+        </select>
+        <input type="number" name="" id="gram" placeholder="Enter Gram" required><br>
+        <button type="button" class="calcbtn" id="myBtn" onclick="myBtn()">CALCULATE EXCHANGE VALUE</button>
+        </div>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+        
+            <center><p class="modalp">Ziewels</p></center>
+            <table class="table">
+	        	<tr>
+	        		<th>Description</th>
+	        		<th>Value</th>
+	        	</tr>
+	            <tr>
+	            	<td>Purity</td>
+                    <td><span id="modalpure"></span></td>
+	            </tr>
+                <tr>
+	            	<td>Gram</td>
+                    <td><span id="modalgram"></span></td>
+	            </tr>
+                <tr>
+	            	<td>Total</span></td>
+                    <td>₹<span id="total"></span></td>
+	            </tr>
+	        </table>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-6 downcal">
+        <center>
+        <div class="calcrte">
+            <div class="calstd">Standard Gold Rates</div>
+            <div class="carat">
+                <div>14 Caratage Gold(1G) - <span>₹3689</span></div>
+                <hr class="calchr">
+                <div>18 Caratage Gold(1G) - <span>₹4747</span></div>
+                <hr class="calchr">
+                <div>22 Caratage Gold(1G) - <span>₹5803</span></div>
+                <hr class="calchr">
+                <div>24 Caratage Gold(1G) - <span>₹6328</span></div>
+            </div>
+        </div>
+        </center>
+    </div>
+
+</section>
+
+
+<!-- ******************************************************************************************************************** -->
+<!-- ******************************************************************************************************************** -->
+
+<script src="project.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

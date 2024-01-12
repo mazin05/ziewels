@@ -1,0 +1,108 @@
+.topcal{
+    background-color: aquamarine;
+    height: 100%; 
+}
+
+.downcal{
+    background-color: blue;
+    height: 100%;
+}
+
+
+.calcpurity {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calcby {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calctotal {
+    margin: 5% 10%;
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.calcinp {
+    margin-top: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+
+.calcinp>h5 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(195, 158, 65);
+    padding-bottom: 50px;
+}
+
+.calcinp>input[type=number] {
+    border: 0 solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    text-indent: 5px;
+    background-color: #F0F0F0;
+}
+
+.calcinp>select {
+    border: 0 solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    text-indent: 5px;
+    background-color: #F0F0F0;
+}
+
+.calcbtn {
+    background-color: rgb(169, 54, 169);
+    color: white;
+    border: 0px solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+
+.calcbtn:hover {
+    background-color: rgb(195, 158, 65);
+}
+
+
+.calcrate {
+    box-sizing: border-box;
+    /* padding: 20px 0 0 105px; */
+}
+
+.calstd {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.carat {
+    background-color: #efe3fd;
+    padding: 40px 40px;
+    border-radius: 15px;
+    border: 2px solid violet;
+    height: fit-content;
+    width: fit-content;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    align-self: center; */
+}
+.calchr {
+    width: 100%;
+}

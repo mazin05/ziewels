@@ -1,0 +1,792 @@
+
+/* ******************************** */
+ #toppart {
+     background-color: darkmagenta;
+     color: aliceblue;
+     width: 100%;
+     font-size: 15px;
+     padding: 5px 0 5px 0;
+ }
+
+ /* **********************LOADER*************************** */
+
+ #loader {
+     text-align: center;
+     align-items: center;
+     margin-top: 10%;
+ }
+ #myDiv {
+     display: none;
+     text-align: center;
+ }
+
+ /* ************************************************* */
+ .navbar {
+     position: sticky;
+     top: 0;
+     z-index: 1;
+     margin-bottom: 0px;
+ }
+
+ nav {
+     background-color: white;
+     padding: 10px 0 30px 20px;
+ }
+
+ #nvbr>a {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 17px;
+     color: darkmagenta;
+     font-weight: 500;
+     font-style: oblique;
+     padding: 20px;
+     margin-top: 15px;
+     margin-left: 5px;
+ }
+
+ #nvbr>ul>li>a{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        color: darkmagenta;
+        font-weight: 500;
+        font-style: oblique;
+        background-color: transparent;
+ }
+  #nvbr>ul>li>a:hover{
+    background-color: #efe3fd;
+  }
+#logname{
+    cursor: pointer;
+}
+/* ************************************************************************ */
+ @media only screen and (min-width:768px) and (max-width: 1536px) {
+     .btn-tog {
+         display: none;
+     }
+     #nvbr>a:hover{
+        background-color: #efe3fd;
+        border-radius: 20px;
+     }
+ }
+ 
+ @media (max-width:550px) {
+    #loader>img{
+        width: 50%;
+        justify-content: center;
+        margin-top: 30%;
+    }
+
+    .goldtxt{
+        font-size: 50px !important;
+    }
+    .goldtop>div>h2>b{
+        font-size: 20px !important;
+    }
+    #demo>.carousel-inner>.item>img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .jewelsimg{
+        display: flex;
+    }
+
+    .goldtop>div>h3 {
+        font-size: 15px !important;
+    }
+    .goldtop>div>.txtstr{
+        font-size: 15px !important;
+    }
+    #jwl-bnr{
+        width: 100% !important;
+    }
+    .foot>.foottxt{
+        text-align: center;
+    }
+    .footul{
+        box-sizing: border-box;
+    }
+
+
+        /* *********************VIDEO GIRL**************************** */
+    #videotag {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    #girlvdo {
+        /* display: flex; */
+        width: 80% !important;
+        height: 60% !important;
+        border: 0;
+        border-radius: 8%;
+    }
+
+    #vdotxt {
+        /* display: flex; */
+        width: 20% !important;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px !important;
+        color: red;
+        font-size: 15px !important;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+ }
+
+
+/* ************************************************************************ */
+ #navimg {
+     width: 120%;
+     height: 60px;
+ }
+
+ .btn-tog {
+     margin-top: 30px;
+     margin-left: auto;
+     border: 0 white;
+     background-color: white;
+ }
+
+
+ /* **********nav********** */
+
+ .carousel-inner .item>img {
+     width: 100%;
+     height: 500px;
+ }
+
+ /* **********caro********** */
+ .jewelsimg {
+     padding: 100px 0 20px 20%;
+     box-sizing: border-box;
+     display: flex;
+ }
+
+ .jwlimg1 {
+     width: 100%;
+     height: auto;
+     border-radius: 10%;
+     display: flex;
+     box-sizing: border-box;
+ }
+
+ .jwlimg2 {
+     width: 75%;
+     height: auto;
+     border-radius: 10%;
+     padding-bottom: 5px;
+     display: flex;
+     box-sizing: border-box;
+ }
+
+ .jwlimg3 {
+     width: 75%;
+     height: auto;
+     border-radius: 10%;
+     padding-top: 5px;
+     display: flex;
+     box-sizing: border-box;
+ }
+
+ .jwlimg1:hover,
+ .jwlimg2:hover,
+ .jwlimg3:hover {
+     scale: 0.9;
+     cursor: pointer;
+ }
+
+ #jwl-bnr{
+    filter: grayscale(100%) blur(5px);
+    padding: 50px 0;
+    width: 50%;
+ }
+  #jwl-bnr:hover {
+    filter: grayscale(0%) blur(0px);
+  }
+
+ /* **********Jewelimg********** */
+  .goldtop {
+      background-color: rgb(249, 249, 250);
+      padding-top: 100px;
+      padding-bottom: 100px;
+      display: flex;
+      box-sizing: border-box;
+  }
+
+ .goldtxt {
+     text-align: center;
+     color: darkmagenta;
+     font-size: 100px;
+     font-weight: 700;
+    box-sizing: border-box;
+ }
+
+ .txtstr {
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: oblique;
+     padding-bottom: 10px;
+    box-sizing: border-box;
+ }
+
+ hr {
+     border: 2px solid darkmagenta;
+ }
+
+ .know {
+     background-color: darkmagenta;
+     color: white;
+     border-radius: 5px;
+     width: 120px;
+     border: none;
+     font-size: 15px;
+     height: 50px;
+ }
+
+ #gold_vdo{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5%;
+    filter: grayscale(2);
+ }
+ #gold_vdo:hover{
+    transform: scale(0.9);
+    filter: grayscale(0);
+ }
+ /* **********GOLD********** */
+ .foot {
+    width: 100%;
+    padding: 50px 50px;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #efe3fd;
+    
+ }
+ .footul{
+    width: 100%;
+    box-sizing: border-box;
+ }
+.foottxt{
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    color: darkmagenta;
+    text-decoration:overline;
+}
+ .foot>div>div>ul {
+     list-style-type: none;
+     font-size: 15px;
+     box-sizing: border-box;
+ }
+
+ .ultop {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 800;
+     font-size: 18px;
+     padding-bottom: 5px;
+     box-sizing: border-box;
+ }
+
+ /* ******GOLD****** */
+
+ #feedback{
+    background-color: rgb(249, 249, 250);
+    width: 100%;
+ }
+
+ .fbp{
+    padding-top: 40px;
+    width: 60%;
+    font-size: 20px;
+    color: gray;
+ }
+
+ .fbdiv{
+        padding: 100px 0 100px 0;
+ }
+ 
+ /* ******feedback****** */
+
+ .submit{
+    width: 100%;
+    height: auto;
+    background-color: darkmagenta;
+ }
+ #subtxt{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 20px 0 0 0;
+ }
+
+
+ /* ***************SUBMIT****************** */
+
+ .goldexchnge{
+    background-color: rgb(207, 194, 120);
+    border-radius: 50px;
+    margin: 0 15% 0 15%;
+    height: auto;
+    padding: 50px 50px ;
+    width: fit-content;
+ }
+ 
+
+ .innerGold{
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: 21px;
+    /* margin: 30% px 30% px; */
+    padding: 20px 20px;
+    border: 2px solid rgb(200, 200, 28);
+    border-radius: 20px;
+    color: rgb(200, 200, 28);
+ }
+.goldjwl{
+    color: darkmagenta;
+    text-align: center;
+    padding: 10px;
+    margin: 1px px px 90px;
+    font-size: 18px;
+}
+
+.calculate{
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.calculate>a{
+    text-decoration: none;
+    color: white;
+}
+
+.topcal {
+    /* background-color: aquamarine; */
+    height: 100%;
+}
+
+.downcal {
+    /* background-color: blue; */
+    height: 100%;
+}
+
+/* .topcalc{
+    margin: 0 15% 0 15%;
+    padding: 20px 20px;
+} */
+.calcpurity{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calcby{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.marq{
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(195, 158, 65);
+}
+
+.calctotal{
+    margin: 5% 10%;
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.calcinp{
+    margin: 10% 20% 0% 20%;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+.calcinp>h5{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(195, 158, 65);
+    padding-bottom: 50px;
+}
+.calcinp>input[type=number]{
+    border: 0 solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    text-indent: 5px;
+    background-color: #F0F0F0;
+}
+
+.calcinp>select {
+    border: 0 solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    text-indent: 5px;
+    background-color: #F0F0F0;
+}
+
+.calcbtn{
+    background-color: rgb(169, 54, 169);
+    color: white;
+    border: 0px solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: fit-content;
+    width:fit-content;
+    padding: 10px;
+}
+.calcbtn:hover{
+    background-color: rgb(195, 158, 65);
+}
+
+.calcrte {
+    box-sizing: border-box;
+    padding: 20px 0 0 0;
+}
+
+.calstd{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.carat{
+    background-color: #efe3fd;
+    padding: 50px 50px;
+    border-radius: 15px;
+    border: 2px solid violet;
+    height: fit-content;
+    width: fit-content;
+    font-size: 15px;
+}
+
+.calchr{
+  width: 100%;
+}
+
+.termtop{
+    padding: 8% 15% 8% 15%;
+    background-color: #F0F0F0;
+}
+.termbest{
+    margin-top: 25%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.term{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+/* *********************FILL DETAILS**************************** */
+#dtlfill {
+    font-size: 30px;
+    font-family: serif;
+    padding-bottom: 10PX;
+}
+
+#details {
+    background-color: #f0e4fc;
+    color: darkmagenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#details>input {
+    border-radius: 5px;
+    height: 40px;
+    width: 20%;
+    color: black;
+    text-indent: 5px;
+    border: none;
+}
+
+#name:hover,
+#mob:hover,
+#ema:hover {
+    transform: scale(1.02);
+    background-color: ghostwhite;
+}
+
+#dtlbtn:hover {
+    background-color: chocolate;
+    border: none;
+}
+
+/* *********************VIDEO GIRL**************************** */
+#videotag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+}
+
+#girlvdo{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border: 0;
+    border-radius: 8%;
+}
+
+#vdotxt{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #af80e4;
+    border-style: double;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 100px;
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ************************** */
+/* #videogoldtag{
+   width: 100%;
+}
+#goldvdo{
+    width: 50%;
+} */
+
+/* *********************GOLDEXCHANGE**************************** */
+
+
+.modal {
+    display: none;
+    /* position: fixed; */
+    z-index: 1;
+    padding-top: 200px;
+    /* margin-left: 350px; */
+    /* left: 0;
+    top: 0; */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    background-color: transparent;
+}
+.modalp{
+    font-size: 30px;
+    color: #af80e4;
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ***********************MODAL*********************** */
+
+.mainRingDiv{
+    margin: 5% 10%;
+}
+
+.card{
+    width:100%;
+    box-sizing: border-box;
+}
+.card:hover{
+    scale: 1;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 1px 0 20px 13px #af80e4;
+}
+.card-img-top{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ring1,
+.ring2,
+.ring3,
+.ring4,
+.ring5 {
+    padding-bottom: 38%;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-span{
+    text-decoration: line-through;
+    color: lightslategray;
+    font-size: 15px;
+}
+
+/* ************************************************* */
+#loginbox{
+    width: 100%;
+    height: fit-content;
+    padding: 5% 35%;
+    box-sizing: border-box;
+}
+
+#logh3{
+ font-size: 25px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: 100;
+ color: darkmagenta;
+ padding-bottom: 10px;
+}
+
+#logh4{
+   color:#888;
+   padding-bottom: 10px;
+}
+
+#logspan{
+ color: darkmagenta;
+ padding-bottom: 10px;
+}
+#logspan:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#loginbox>div>input[type=text]{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#loginbox>div>input[type=email] {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#loginbox>div>input[type=password] {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#logfn,#logln,#logemail,#logpass{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    text-indent: 10px;
+    color: rgb(171, 98, 171);
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+#logemail:hover,
+#logpass:hover{
+        border: 3px solid darkmagenta;
+}
+
+#logfrgt{
+ color: #888;
+padding-bottom: 10px;
+}
+#logfrgt:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logsign{
+    width: fit-content;
+    padding: 0 10%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Verdana, sans-serif";
+    background-color: #af80e4;
+    border: 0px solid;
+    border-radius: 5px;
+}
+#logsign:hover{
+    color: darkmagenta;
+    background-color: lightgreen;
+}
+
+#error-message{
+    color: red;
+    font-size: 20px;
+}
+/* ************************************************ */
+
+.table-bordered{
+    border: 2px solid rgb(251, 149, 251);
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tbltr>th{
+    text-align: center;
+    font-weight: 700;
+    background-color: #e1c6ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 80px !important;
+}
+
+.tbltr>td{
+    text-align: center;
+    font-weight: 700;
+    background-color: #f0e4fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px !important;
+}
+
+.tble{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.tblspan{
+    color: red;
+    margin-left: 5px;
+}

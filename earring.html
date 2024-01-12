@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZIEWELs</title>
+    <link rel="icon" href="./logo.png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="rings.css">
+    <link rel="stylesheet" href="earring.css">
+    <style>
+       html{
+        scroll-behavior: smooth;
+        }
+    </style>
+  </head>
+
+  <body class="">
+    <div id="toppart">
+        <center>
+            Earrings - Ziewels
+        </center>
+    </div>
+    <!-- ******************************************************************************************************************** -->
+<div class="navbar">
+    <nav class="navbar navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="./project.html" class="navbar-brand"><img id="navimg" src="./logo-1.png" alt=""></a>
+                 <button class="navbar-toggler btn-tog" data-toggle="collapse" data-target="#Toggler" aria-controls="Toggler" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">⬇️</span>
+                  </button>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="Toggler">
+            <ul class="nav navbar-nav">
+                <li id="nvbr"><a href="./rings.html">Rings</a></li>
+                <li id="nvbr"><a href="./earring.html">Earring</a></li>
+                <li id="nvbr"><a href="./neck.html">Necklace</a></li>
+                <li id="nvbr"><a href="./gold-knwmre.html">Exchange</a></li>
+                <!-- <li id="nvbr" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nvbr">Pendants<span class="caret"></span></a>
+                    <ul class="dropdown dropdown-menu">
+                        <li><a href="#" id="ctry">Casual</a></li>
+                        <li><a href="#" id="ctry">Diamond</a></li>
+                        <li><a href="#" id="ctry">Gold</a></li>
+                        <li><a href="#" id="ctry">Platinum</a></li>
+                    </ul>
+                </li> -->
+                <li id="nvbr"><a href="./coin.html">Coins</a></li>                  
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- <li id="nvbr"><a href="./signup.html" target="_blank">SIGN UP</a></li> -->
+                <li id="nvbr"><a href=""><i class="glyphicon glyphicon-shopping-cart icon-cart"></i></a></li>
+                <li id="nvbr"><a href="./login.html"> <i class="glyphicon glyphicon-user"></i></a></li>
+            </ul>
+            </div>
+    </nav>
+</div>
+    <!-- ******************************************************************************************************************** -->
+<div class="mainRingDiv">
+  <section>     
+<!-- *********************************** -->
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+  <div id="modal_in">
+      <center><p class="modalp">Ziewels</p></center>
+    <div id="modal_on">
+       <div>
+          <img src="" id="img_model" alt="">
+          <h4 id="rn">Name - <span id="ring_name"></span></h4>
+       </div>
+       
+       <table class="table">
+        <tr>
+          <th>Description</th>
+          <th>Rs.</th>
+        </tr>
+        <tr>
+          <td>Price</td>
+          <td><span id="price_in"></span></td>
+        </tr>
+        <tr>
+          <td>Old</td>
+          <td><span id="old_price"></span></td>
+        </tr>
+        <tr>
+          <td>Shipping Cost</td>
+          <td>₹250</td>
+        </tr>
+        <tr>
+          <!-- <td></td> -->
+          <td>
+             <div class="cart">
+              <button id="purchase-button">Add to Cart</button>
+            </div>
+            <div class="notification">
+              <p id="notification-message"></p>
+            </div>
+          </td>
+        </tr>
+       </table>
+    </div>
+   
+  </div>
+  </div>
+</div>
+
+<!-- *********************************** -->
+    <div class="ring1">
+        <div class="col-sm-3" onclick="myBtn1()">
+          <div class="card">
+            <img class="card-img-top 1" id="1" src="./earring/e1.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n1"> Green Topas (LIMITED)</h4>
+            <h4 class="card-title" id="t1">₹20,403</h4>
+            <span class="card-span" id="s1">₹22,783</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+
+        <div class="col-sm-3" onclick="myBtn2()">
+            <div class="card">
+            <img class="card-img-top 2" id="2" src="./earring/e2.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n2"> Platinold</h4>
+            <h4 class="card-title" id="t2">₹24,814</h4>
+            <span class="card-span" id="s2">₹26,325</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 3" id="3" src="./earring/e3.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n3">Gold semi-Cut</h4>
+            <h4 class="card-title" id="t3">₹23,500</h4>
+            <span class="card-span" id="s3">₹25,783</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 4" id="4" src="./earring/e4.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n4">Spiral Cross</h4>
+            <h4 class="card-title" id="t4">₹15,251</h4>
+            <span class="card-span" id="s4">₹17,548</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+
+    </div>   
+
+    <div class="ring2">
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 5" id="5" src="./earring/e5.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n5">Platinold</h4>
+            <h4 class="card-title" id="t5">₹17,500</h4>
+            <span class="card-span" id="s5">₹19,900</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 6" id="6" src="./earring/e6.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n6">Grid Bar</h4>
+            <h4 class="card-title" id="t6">₹21,892</h4>
+            <span class="card-span" id="s6">₹23,893</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 7" id="7" src="./earring/e7.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n7">Rose Gold Couple</h4>
+            <h4 class="card-title" id="t7">₹15,700</h4>
+            <span class="card-span" id="s7">₹17,903</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 8" id="8" src="./earring/e8.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n8">Hexagon Stone Gold</h4>
+            <h4 class="card-title" id="t8">₹28,400</h4>
+            <span class="card-span" id="s8">₹30,214</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+
+    </div>   
+
+    <div class="ring3">
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 9" id="9" src="./earring/eb1.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n9">Black Gold</h4>
+            <h4 class="card-title" id="t9">₹17,500</h4>
+            <span class="card-span" id="s9">₹19,783</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 10" id="10" src="./earring/eb2.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n10">Rose Gold Unisex</h4>
+            <h4 class="card-title" id="t10">₹22,800</h4>
+            <span class="card-span" id="s10">₹24,645</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 11" id="11" src="./earring/eb3.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n11">Grill Bar'd</h4>
+            <h4 class="card-title" id="t11">₹25,200</h4>
+            <span class="card-span" id="s11">₹27,489</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 12" id="12" src="./earring/eb4.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n12">Spiral Cross</h4>
+            <h4 class="card-title" id="t12">₹23,788</h4>
+            <span class="card-span" id="s12">₹25,548</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+    </div>
+
+        <div class="ring4">
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 13" id="13" src="./earring/e9.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n13">Couple Leaves</h4>
+            <h4 class="card-title" id="t13">₹17,500</h4>
+            <span class="card-span" id="s13">₹19,783</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" onclick="myBtn()">
+            <img class="card-img-top 14" id="14" src="./earring/e10.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n14">Rose Gold Men</h4>
+            <h4 class="card-title" id="t14">₹22,800</h4>
+            <span class="card-span" id="s14">₹24,645</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 15" id="15" src="./earring/e11.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n15">Multi Stone leaves</h4>
+            <h4 class="card-title" id="t15">₹25,200</h4>
+            <span class="card-span" id="s15">₹27,489</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 16" id="16" src="./earring/e12.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n16">Valentine Heart</h4>
+            <h4 class="card-title" id="t16">₹23,788</h4>
+            <span class="card-span" id="s16">₹25,548</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+    </div>
+
+        <div class="ring5">
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 17" id="17" src="./earring/e13.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n17">Parallo Leaf</h4>
+            <h4 class="card-title" id="t17">₹17,500</h4>
+            <span class="card-span" id="s17">₹19,783</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 18" id="18" src="./earring/e14.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n18">Royalty Sigma</h4>
+            <h4 class="card-title" id="t18">₹22,800</h4>
+            <span class="card-span" id="s18">₹24,645</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 19" id="19" src="./earring/e15.jpeg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n19">Crossed Gold</h4>
+            <h4 class="card-title" id="t19">₹25,200</h4>
+            <span class="card-span" id="s19">₹27,489</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3" onclick="myBtn()">
+            <div class="card">
+            <img class="card-img-top 20" id="20" src="./rings/r20.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-name" id="n20">Jade Gold</h4>
+            <h4 class="card-title" id="t20">₹23,788</h4>
+            <span class="card-span" id="s20">₹25,548</span>
+            <!-- <p class="card-text">Check delivery date</p> -->
+            <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          </div>
+        </div>
+        </div>
+    </div>
+
+  </section>
+</div>
+<!-- ************************************************************************************************************** -->
+  <div class="cartTab">
+    <h2>Cart</h2>
+    <div class="listcart">
+      <div class="itm">
+        <img src="earring/e1.jpeg" alt="">
+      </div>
+      <div class="nam">
+        Name
+      </div>
+      <div class="flx">
+      <div class="totprc">Rs.200</div>
+      <div class="quant">
+        <span class="minus">-</span>
+        <span >1</span>
+        <span class="plus">+</span>
+      </div>
+      </div>
+    </div>
+    <div class="bt">
+        <button class="cls">CLOSE</button>
+        <button class="checkout">CHECK OUT</button>
+    </div>
+  </div>
+
+<!-- ************************************************************************************************************** -->
+
+<footer>
+    <div class="foot">
+    <h1 class="foottxt">ZIEWELs</h1>
+    <div class="footul">
+    <div class="col-md-2">
+        <ul>
+            <li class="ultop">Know Your Jewellery</li>
+            <li>Diamond Guide</li>
+            <li>Jewellery Guide</li>
+            <li>Gemstones Guide</li>
+            <li>Digital Gold</li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <ul>
+            <li class="ultop">Advantages</li>
+            <li>15-Day Returns</li>
+            <li>Free Shipping</li>
+            <li>Financing Options</li>
+            <li>old gold Exchange</li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <ul>
+            <li class="ultop">Customer Services</li>
+            <li>Return Policy</li>
+            <li>Order Status</li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+          <ul>
+            <li class="ultop">About Us</li>
+            <li>our Story</li>
+            <li>Press</li>
+            <li>Blog</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+          <ul>
+            <li class="ultop">Contact Us</li>
+            <li>24X7 Enquiry Support(ALL DAYS)</li>
+            <li>General : <b>Contactus@ziewels.Com</b></li>
+            <li>Corporate : <b>B2B@ziewels.Com</b></li>
+            <li>HR : <b>Careers@ziewels.Com</b></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+</footer>
+
+
+<script src="rings.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
